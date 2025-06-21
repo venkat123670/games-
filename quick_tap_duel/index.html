@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quick Tap Duel – INVENTO</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="duel-container">
+    <h1>⚡ Quick Tap Duel</h1>
+    <p class="hint">Wait for the screen to turn <span class="green">green</span>, then TAP fast!</p>
+    <div class="screen" id="screen" onclick="handleTap(event)">
+      <div class="label" id="label">Wait...</div>
+    </div>
+    <div class="controls">
+      <button onclick="startDuel()">Start Duel</button>
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
